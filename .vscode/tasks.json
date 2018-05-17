@@ -5,25 +5,26 @@
 	"taskName": "current",
 	"tasks": [
 		{
+			"label": "Deploy to AWS",
+			"type": "shell",
+			"command": "terraform apply --auto-approve",
+			"dependsOn": "perseus.ai npm run build",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"options": {
+				"cwd": ".\\infrastructure\\"
+			},
+			"problemMatcher": []
+		},
+		{
 			"label": "perseus.ai npm run build",
 			"type": "shell",
 			"command": "npm run build",
 			"group": {
 				"kind": "build",
-				"isDefault": true
-			},
-			"problemMatcher": []
-		},
-		{
-			"label": "Deploy to AWS",
-			"type": "shell",
-			"command": "terraform apply --auto-approve",
-			"group": {
-				"kind": "test",
-				"isDefault": true
-			},
-			"options": {
-				"cwd": ".\\infrastructure\\"
+				"isDefault": false
 			},
 			"problemMatcher": []
 		}
