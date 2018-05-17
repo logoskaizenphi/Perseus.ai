@@ -1,0 +1,9 @@
+todo 
+add new package.json file with build script added 
+
+"scripts": {
+"start": "node ./bin/www",
+"build": "7z a guestbook.zip index.js"
+
+
+copy/create guestbook file in "..\guestbook.zip"

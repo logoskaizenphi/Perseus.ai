@@ -1,0 +1,20 @@
+{
+  "fulfillmentText": "this text is displayed visually",
+  "payload": {
+    "facebook": {
+      "text": "What do you think?",
+      "quick_replies": [
+        {
+          "content_type": "text",
+          "title": "Short",
+          "payload": "red"
+        },
+        {
+          "content_type": "text",
+          "title": "Tall",
+          "payload": "green"
+        }
+      ]
+    }
+  }
+}
