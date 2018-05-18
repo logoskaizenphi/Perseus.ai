@@ -22,8 +22,7 @@ Add all install .exe locations to windows environment variables
 Run aws configure command
 Use aws IAM client key and secret key as well as aws region
 
-
-Use in express  npm express generator To install base code base
+Use in express npm express generator To install base code base
 
 Add infrastructure directory to base code base
 Add ./infrastructure/main.tf
@@ -48,7 +47,6 @@ Run terraform apply —auto-approve
 
 Test lamda function
 
-
 DialogFlow agent
 Create agent
 Set to use V2 integration
@@ -63,7 +61,6 @@ Create page messenger app access token
 Create Facebook webhook
 Check postback_messages and messages checkbox
 Add dialogflow integration url and access token to Facebook webhook
-
 
 Google Assistant setup
 Link dialogflow agent to Google Actions project
