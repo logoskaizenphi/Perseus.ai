@@ -1,3 +1,8 @@
+{"fulfillmentText": "this text is displayed visually",
+                             "payload": {
+                               //example facebook messenger response, you can only have one response type (quick reply, audio, card) per facebook payload
+                                "facebook": {
+   
     //simple facebook text response example                            
    //"text": "Hello, perseus you fucking epic stud you!"
    //,
@@ -11,7 +16,7 @@
     // }
 
 
-    /*simple facebook quick reply text w/color example
+    //simple facebook quick reply text w/color example
      "text": "What do you think?",
          "quick_replies": [
             {
@@ -26,4 +31,7 @@
             }
          ]
 
-          *///end facebook text quick reply example
+          //end facebook text quick reply example
+
+    }
+  }}
