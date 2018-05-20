@@ -1,0 +1,50 @@
+{
+	"responseId": "3b3e2b54-2c92-4b78-a27f-d6997deca2cd",
+	"queryResult": {
+		"queryText": "im scared to talk to her",
+		"action": "approachanxiety",
+		"parameters": {},
+		"allRequiredParamsPresent": true,
+		"fulfillmentMessages": [
+			{
+				"quickReplies": {
+					"title": "girls",
+					"quickReplies": ["confidence", "mindset", "sex", "porn addiction"]
+				},
+				"platform": "SLACK"
+			},
+			{ "text": { "text": [""] } }
+		],
+		"outputContexts": [
+			{
+				"name":
+					"projects/approachcoach-3ef09/agent/sessions/87135360-ed3c-41f8-abe7-2b69543e943a/contexts/generic",
+				"lifespanCount": 4,
+				"parameters": { "slack_user_id": "UASBW515Z", "slack_channel": "DARUS7VED" }
+			}
+		],
+		"intent": {
+			"name": "projects/approachcoach-3ef09/agent/intents/5d144289-9247-4f77-b260-99258af234c1",
+			"displayName": "Approach Anxiety"
+		},
+		"intentDetectionConfidence": 0.68,
+		"diagnosticInfo": {},
+		"languageCode": "en"
+	},
+	"originalDetectIntentRequest": {
+		"source": "slack_testbot",
+		"payload": {
+			"data": {
+				"event_ts": "1526682080.000010",
+				"channel": "DARUS7VED",
+				"text": "im scared to talk to her",
+				"type": "message",
+				"channel_type": "im",
+				"user": "UASBW515Z",
+				"ts": "1526682080.000010"
+			},
+			"source": "slack_testbot"
+		}
+	},
+	"session": "projects/approachcoach-3ef09/agent/sessions/87135360-ed3c-41f8-abe7-2b69543e943a"
+}

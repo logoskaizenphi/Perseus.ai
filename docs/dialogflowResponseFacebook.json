@@ -1,0 +1,35 @@
+{
+	"responseId": "3cfa74e5-4d09-4eba-b833-4186a5597fd9",
+	"queryResult": {
+		"queryText": "I cant do it right now",
+		"action": "approachanxiety",
+		"parameters": {},
+		"allRequiredParamsPresent": true,
+		"fulfillmentMessages": [{ "text": { "text": [""] } }],
+		"outputContexts": [
+			{
+				"name":
+					"projects/approachcoach-3ef09/agent/sessions/5165042e-3faa-4db6-bbdd-06478578c486/contexts/generic",
+				"lifespanCount": 4,
+				"parameters": { "facebook_sender_id": "1840673212633923" }
+			}
+		],
+		"intent": {
+			"name": "projects/approachcoach-3ef09/agent/intents/5d144289-9247-4f77-b260-99258af234c1",
+			"displayName": "Approach Anxiety"
+		},
+		"intentDetectionConfidence": 1,
+		"diagnosticInfo": {},
+		"languageCode": "en"
+	},
+	"originalDetectIntentRequest": {
+		"source": "facebook",
+		"payload": {
+			"sender": { "id": "1840673212633923" },
+			"recipient": { "id": "354505231715175" },
+			"message": { "mid": "mid.$cAAEYnnLpdt5pq6vJiljemZ7eBcb-", "text": "I cant do it right now", "seq": 462 },
+			"timestamp": 1526766928266
+		}
+	},
+	"session": "projects/approachcoach-3ef09/agent/sessions/5165042e-3faa-4db6-bbdd-06478578c486"
+}
